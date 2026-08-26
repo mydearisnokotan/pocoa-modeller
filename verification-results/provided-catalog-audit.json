@@ -1,0 +1,369 @@
+{
+  "catalogBlocks": 175,
+  "providedImages": 175,
+  "categories": [
+    "カベ",
+    "ゆか・どうろ",
+    "鉱石・特殊",
+    "地形・環境"
+  ],
+  "uniqueMaterials": 27,
+  "requiredFieldViolations": 48,
+  "blocksWithMissingRequiredFields": [
+    {
+      "block_key": "grassland_turf",
+      "name": "そうげんのしばふ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "coastal_turf",
+      "name": "かいがんのしばふ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "mountain_turf",
+      "name": "さんがくのしばふ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "sky_turf",
+      "name": "てんくうのしばふ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "normal_dirt",
+      "name": "ふつうのつち",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "shell_dirt",
+      "name": "かいがらのつち",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "striped_dirt",
+      "name": "シマシマのつち",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "pure_white_dirt",
+      "name": "まっしろなつち",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "clay_block",
+      "name": "ねんど",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "normal_sand",
+      "name": "ふつうのすな",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "beach_sand",
+      "name": "うみべのすな",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "floating_island_sand",
+      "name": "うきしまのすな",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "rough_beach_sand",
+      "name": "ザラザラすなはま",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "volcanic_ash",
+      "name": "かざんばい",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "sandstone_rock",
+      "name": "すないわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "floating_island_sandstone",
+      "name": "うきしまのすないわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "cliff_rock",
+      "name": "がけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "grain_cliff_rock",
+      "name": "ツブがけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "red_cliff_rock",
+      "name": "あかがけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "red_grain_cliff_rock",
+      "name": "あかいツブがけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "black_cliff_rock",
+      "name": "くろがけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "black_grain_cliff_rock",
+      "name": "くろいツブがけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "floating_cliff_rock",
+      "name": "うきしまのがけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "floating_grain_cliff_rock",
+      "name": "うきしまのツブがけいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "white_rock",
+      "name": "しろいいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "rough_rock",
+      "name": "ザラザラいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "light_brown_rock",
+      "name": "うすちゃいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "red_rock",
+      "name": "あかいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "yellow_rock",
+      "name": "きいろいいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "black_rock",
+      "name": "くろいいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "magma_rock",
+      "name": "マグマいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "cave_rock",
+      "name": "どうくつのいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "ocean_rock",
+      "name": "うみのいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "red_brown_cave_rock",
+      "name": "あかちゃどうくついわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "volcano_rock",
+      "name": "かざんのいわ",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "copper_ore_pasapasa",
+      "name": "どうこうせき(パサパサ)",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "copper_ore_donyori",
+      "name": "どうこうせき(ドンヨリ)",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "copper_ore_gotsugotsu",
+      "name": "どうこうせき(ゴツゴツ)",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "copper_ore_kirakira",
+      "name": "どうこうせき(キラキラ)",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "iron_ore",
+      "name": "てっこうせき",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "gold_ore",
+      "name": "きんこうせき",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "pokemetal_ore",
+      "name": "ポケメタルこうせき",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "moss_dirt",
+      "name": "コケつち",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "gravel",
+      "name": "じゃり",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "limestone",
+      "name": "せっかいせき",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "light_stone",
+      "name": "ヒカリいし",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "mysterious_stone",
+      "name": "ナゾのいし",
+      "fields": [
+        "required_materials"
+      ]
+    },
+    {
+      "block_key": "ice_block",
+      "name": "こおり",
+      "fields": [
+        "required_materials"
+      ]
+    }
+  ],
+  "duplicateBlockKeys": [],
+  "duplicateBlockNames": [],
+  "blocksWithoutMatchingImage": [
+    {
+      "block_key": "clay_block",
+      "name": "ねんど"
+    },
+    {
+      "block_key": "gold_ore",
+      "name": "きんこうせき"
+    },
+    {
+      "block_key": "ditto_pattern_dlc",
+      "name": "メタモンだらけもよう"
+    }
+  ],
+  "estimatedBlockRows": 30,
+  "estimatedTotalBlocks": 834,
+  "estimatedBlocksNotInCatalog": []
+}

@@ -98,7 +98,7 @@ export async function listCatalogBlocks(filters: CatalogFilters = {}) {
   if (filters.category && filters.category !== "すべて") conditions.push(eq(blocks.category, filters.category));
   if (filters.color) conditions.push(or(like(blocks.colorName, `%${filters.color}%`), like(blocks.colorHex, `%${filters.color}%`))!);
   if (filters.query) conditions.push(or(like(blocks.name, `%${filters.query}%`), like(blocks.category, `%${filters.query}%`), like(blocks.colorName, `%${filters.query}%`))!);
-  return db.select().from(blocks).where(and(...conditions)).limit(filters.limit ?? 100);
+  return db.select().from(blocks).where(and(...conditions)).orderBy(desc(blocks.updatedAt)).limit(filters.limit ?? 100);
 }
 
 export async function listCategories() {

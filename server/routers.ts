@@ -10,6 +10,26 @@ import { createProjectCandidates } from "./candidateGeneration";
 import { generateBlueprint, type DesignPart } from "./designGeneration";
 import { storageGetSignedUrl, storagePut } from "./storage";
 import { adminProcedure, protectedProcedure, publicProcedure, router } from "./_core/trpc";
+import { canAddReferenceCount, collectReferencesForAnalysis, type ProjectReferenceView, type StoredReferenceForAnalysis } from "./projectReferenceAnalysis";
+
+type ProjectWithReferences = {
+  sourceImageKey: string | null;
+  sourceImageUrl: string | null;
+  references: StoredReferenceForAnalysis[];
+};
+
+async function analyzeStoredProjectReferences(project: ProjectWithReferences) {
+  if (!project.sourceImageKey || !project.sourceImageUrl) throw new Error("初回参照画像が見つかりません。");
+  const references = collectReferencesForAnalysis(project.references, { imageKey: project.sourceImageKey, imageUrl: project.sourceImageUrl, view: "front" });
+  const inputs = await Promise.all(references.map(async reference => {
+    const signedUrl = await storageGetSignedUrl(reference.imageKey);
+    const response = await fetch(signedUrl);
+    if (!response.ok) throw new Error("保存済みの参照画像を取得できませんでした。");
+    const mimeType = response.headers.get("content-type")?.split(";")[0] ?? "image/jpeg";
+    return { dataUrl: `data:${mimeType};base64,${Buffer.from(await response.arrayBuffer()).toString("base64")}`, view: reference.view as ProjectReferenceView };
+  }));
+  return analyzeBuildingImages(inputs);
+}
 
 export const appRouter = router({
     // if you need to use socket.io, read and register route in server/_core/index.ts, all api should start with '/api/' so that the gateway can route correctly
@@ -133,6 +153,10 @@ export const appRouter = router({
       .mutation(async ({ ctx, input }) => {
         const project = await db.getUserProject(input.projectId, ctx.user.id);
         if (!project || !project.sourceImageKey || !project.sourceImageUrl) throw new TRPCError({ code: "NOT_FOUND", message: "プロジェクトが見つかりません。" });
+        const currentReferences = collectReferencesForAnalysis(project.references, { imageKey: project.sourceImageKey, imageUrl: project.sourceImageUrl, view: "front" });
+        if (!canAddReferenceCount(currentReferences.length, input.references.length)) {
+          throw new TRPCError({ code: "BAD_REQUEST", message: "参照画像は初回画像を含めて最大6枚までです。追加数を減らしてください。" });
+        }
         const uploads = await Promise.all(input.references.map(async (reference, index) => {
           const image = parseImageDataUrl(reference.imageDataUrl);
           const extension = image.mimeType === "image/jpeg" ? "jpg" : image.mimeType.split("/")[1];
@@ -140,12 +164,9 @@ export const appRouter = router({
           await db.addProjectReference({ userId: ctx.user.id, projectId: input.projectId, view: reference.view, imageKey: stored.key, imageUrl: stored.url, originalName: reference.fileName });
           return reference;
         }));
-        const originalSignedUrl = await storageGetSignedUrl(project.sourceImageKey);
-        const originalResponse = await fetch(originalSignedUrl);
-        if (!originalResponse.ok) throw new Error("元の参照画像を取得できませんでした。");
-        const originalMime = originalResponse.headers.get("content-type")?.split(";")[0] ?? "image/jpeg";
-        const originalDataUrl = `data:${originalMime};base64,${Buffer.from(await originalResponse.arrayBuffer()).toString("base64")}`;
-        const analysis = await analyzeBuildingImages([{ dataUrl: originalDataUrl, view: "front" }, ...uploads.map(reference => ({ dataUrl: reference.imageDataUrl, view: reference.view }))]);
+        const updatedProject = await db.getUserProject(input.projectId, ctx.user.id);
+        if (!updatedProject) throw new TRPCError({ code: "NOT_FOUND", message: "プロジェクトが見つかりません。" });
+        const analysis = await analyzeStoredProjectReferences(updatedProject);
         await db.saveProjectAnalysis({ userId: ctx.user.id, projectId: input.projectId, sourceImageKey: project.sourceImageKey, sourceImageUrl: project.sourceImageUrl, analysis });
         await createProjectCandidates(input.projectId, analysis);
         return { analysis, references: (await db.getUserProject(input.projectId, ctx.user.id))?.references ?? [] };
@@ -153,8 +174,20 @@ export const appRouter = router({
     removeReference: protectedProcedure
       .input(z.object({ projectId: z.number().int().positive(), referenceId: z.number().int().positive() }))
       .mutation(async ({ ctx, input }) => {
+        const project = await db.getUserProject(input.projectId, ctx.user.id);
+        if (!project || !project.sourceImageKey || !project.sourceImageUrl) throw new TRPCError({ code: "NOT_FOUND", message: "プロジェクトが見つかりません。" });
+        const target = project.references.find(reference => reference.id === input.referenceId);
+        if (!target) throw new TRPCError({ code: "NOT_FOUND", message: "参照画像が見つかりません。" });
+        if (target.imageKey === project.sourceImageKey) {
+          throw new TRPCError({ code: "BAD_REQUEST", message: "初回参照画像は削除できません。新しいプロジェクトで画像を変更してください。" });
+        }
         await db.removeProjectReference(ctx.user.id, input.projectId, input.referenceId);
-        return { success: true };
+        const updatedProject = await db.getUserProject(input.projectId, ctx.user.id);
+        if (!updatedProject) throw new TRPCError({ code: "NOT_FOUND", message: "プロジェクトが見つかりません。" });
+        const analysis = await analyzeStoredProjectReferences(updatedProject);
+        await db.saveProjectAnalysis({ userId: ctx.user.id, projectId: input.projectId, sourceImageKey: project.sourceImageKey, sourceImageUrl: project.sourceImageUrl, analysis });
+        await createProjectCandidates(input.projectId, analysis);
+        return { success: true, analysis };
       }),
     generateDesign: protectedProcedure
       .input(z.object({ projectId: z.number().int().positive(), selections: z.array(z.object({ partId: z.string().min(1), blockId: z.number().int().positive() })).min(1).max(100) }))
@@ -172,7 +205,7 @@ export const appRouter = router({
         });
         await db.saveProjectSelections(input.projectId, input.selections);
         const sideSilhouettes = analysis?.silhouettes?.filter(item => item.view === "left" || item.view === "right" || item.view === "back").map(item => item.silhouette) ?? [];
-        const palette = await db.listCatalogBlocks({ limit: 300 });
+        const palette = await db.listCatalogBlocks({ limit: 600 });
         const recipeBlockIds = Array.from(new Set([...parts.map(part => part.blockId), ...palette.map(block => block.id)]));
         const blueprint = generateBlueprint(project.buildingHeight, parts, await db.getRecipesForBlocks(recipeBlockIds), analysis?.silhouette, sideSilhouettes, palette);
         await db.saveProjectBlueprint({

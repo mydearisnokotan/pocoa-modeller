@@ -1,0 +1,288 @@
+{
+  "projectId": 1,
+  "providedCatalogBlocks": 172,
+  "parts": [
+    {
+      "partId": "P001",
+      "partName": "頭部ユニット",
+      "targetColor": "#FFFFFF",
+      "closestProvidedBlocks": [
+        {
+          "id": 60005,
+          "name": "ぬののカベ",
+          "category": "カベ",
+          "colorHex": "#E6E4DE",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cloth_wall_2ce078d6.jpg",
+          "distance": 49.4
+        },
+        {
+          "id": 60108,
+          "name": "きのみのもよう",
+          "category": "カベ",
+          "colorHex": "#E9E3D4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/berry_pattern_520c727a.jpg",
+          "distance": 55.8
+        },
+        {
+          "id": 60062,
+          "name": "わたのゆか",
+          "category": "ゆか・どうろ",
+          "colorHex": "#E2DDD5",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cotton_floor_97f946b0.jpg",
+          "distance": 61.3
+        },
+        {
+          "id": 60111,
+          "name": "シャボンのもよう",
+          "category": "カベ",
+          "colorHex": "#DCDFD4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/bubble_pattern_6279621c.jpg",
+          "distance": 64
+        },
+        {
+          "id": 60117,
+          "name": "はっぱもよう",
+          "category": "カベ",
+          "colorHex": "#E2EDC6",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/leaf_pattern_c718328a.jpg",
+          "distance": 66.4
+        }
+      ]
+    },
+    {
+      "partId": "P002",
+      "partName": "頸部",
+      "targetColor": "#FFFFFF",
+      "closestProvidedBlocks": [
+        {
+          "id": 60005,
+          "name": "ぬののカベ",
+          "category": "カベ",
+          "colorHex": "#E6E4DE",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cloth_wall_2ce078d6.jpg",
+          "distance": 49.4
+        },
+        {
+          "id": 60108,
+          "name": "きのみのもよう",
+          "category": "カベ",
+          "colorHex": "#E9E3D4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/berry_pattern_520c727a.jpg",
+          "distance": 55.8
+        },
+        {
+          "id": 60062,
+          "name": "わたのゆか",
+          "category": "ゆか・どうろ",
+          "colorHex": "#E2DDD5",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cotton_floor_97f946b0.jpg",
+          "distance": 61.3
+        },
+        {
+          "id": 60111,
+          "name": "シャボンのもよう",
+          "category": "カベ",
+          "colorHex": "#DCDFD4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/bubble_pattern_6279621c.jpg",
+          "distance": 64
+        },
+        {
+          "id": 60117,
+          "name": "はっぱもよう",
+          "category": "カベ",
+          "colorHex": "#E2EDC6",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/leaf_pattern_c718328a.jpg",
+          "distance": 66.4
+        }
+      ]
+    },
+    {
+      "partId": "P003",
+      "partName": "胴体コア",
+      "targetColor": "#FFFFFF",
+      "closestProvidedBlocks": [
+        {
+          "id": 60005,
+          "name": "ぬののカベ",
+          "category": "カベ",
+          "colorHex": "#E6E4DE",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cloth_wall_2ce078d6.jpg",
+          "distance": 49.4
+        },
+        {
+          "id": 60108,
+          "name": "きのみのもよう",
+          "category": "カベ",
+          "colorHex": "#E9E3D4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/berry_pattern_520c727a.jpg",
+          "distance": 55.8
+        },
+        {
+          "id": 60062,
+          "name": "わたのゆか",
+          "category": "ゆか・どうろ",
+          "colorHex": "#E2DDD5",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cotton_floor_97f946b0.jpg",
+          "distance": 61.3
+        },
+        {
+          "id": 60111,
+          "name": "シャボンのもよう",
+          "category": "カベ",
+          "colorHex": "#DCDFD4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/bubble_pattern_6279621c.jpg",
+          "distance": 64
+        },
+        {
+          "id": 60117,
+          "name": "はっぱもよう",
+          "category": "カベ",
+          "colorHex": "#E2EDC6",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/leaf_pattern_c718328a.jpg",
+          "distance": 66.4
+        }
+      ]
+    },
+    {
+      "partId": "P004",
+      "partName": "千輪（金の輪）",
+      "targetColor": "#D4AF37",
+      "closestProvidedBlocks": [
+        {
+          "id": 60002,
+          "name": "木のカベ・ライト",
+          "category": "カベ",
+          "colorHex": "#DFB75C",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/wood_wall_light_2668201c.jpg",
+          "distance": 39.4
+        },
+        {
+          "id": 60172,
+          "name": "ひびわれすないわ",
+          "category": "地形・環境",
+          "colorHex": "#E29A5C",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cracked_sandstone_42b80538.jpg",
+          "distance": 44.8
+        },
+        {
+          "id": 60089,
+          "name": "レンガのゆか",
+          "category": "ゆか・どうろ",
+          "colorHex": "#EAA163",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/brick_floor_659be3b8.jpg",
+          "distance": 51.1
+        },
+        {
+          "id": 60067,
+          "name": "木のフカフカはしら",
+          "category": "ゆか・どうろ",
+          "colorHex": "#F4C758",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/wooden_fluffy_pillar_e9dce47a.jpg",
+          "distance": 51.9
+        },
+        {
+          "id": 60073,
+          "name": "だいりせきのゆか・ダーク",
+          "category": "ゆか・どうろ",
+          "colorHex": "#C2A467",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/marble_floor_dark_e36ee9a2.jpg",
+          "distance": 52.4
+        }
+      ]
+    },
+    {
+      "partId": "P005",
+      "partName": "四肢",
+      "targetColor": "#FFFFFF",
+      "closestProvidedBlocks": [
+        {
+          "id": 60005,
+          "name": "ぬののカベ",
+          "category": "カベ",
+          "colorHex": "#E6E4DE",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cloth_wall_2ce078d6.jpg",
+          "distance": 49.4
+        },
+        {
+          "id": 60108,
+          "name": "きのみのもよう",
+          "category": "カベ",
+          "colorHex": "#E9E3D4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/berry_pattern_520c727a.jpg",
+          "distance": 55.8
+        },
+        {
+          "id": 60062,
+          "name": "わたのゆか",
+          "category": "ゆか・どうろ",
+          "colorHex": "#E2DDD5",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cotton_floor_97f946b0.jpg",
+          "distance": 61.3
+        },
+        {
+          "id": 60111,
+          "name": "シャボンのもよう",
+          "category": "カベ",
+          "colorHex": "#DCDFD4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/bubble_pattern_6279621c.jpg",
+          "distance": 64
+        },
+        {
+          "id": 60117,
+          "name": "はっぱもよう",
+          "category": "カベ",
+          "colorHex": "#E2EDC6",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/leaf_pattern_c718328a.jpg",
+          "distance": 66.4
+        }
+      ]
+    },
+    {
+      "partId": "P006",
+      "partName": "尾",
+      "targetColor": "#FFFFFF",
+      "closestProvidedBlocks": [
+        {
+          "id": 60005,
+          "name": "ぬののカベ",
+          "category": "カベ",
+          "colorHex": "#E6E4DE",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cloth_wall_2ce078d6.jpg",
+          "distance": 49.4
+        },
+        {
+          "id": 60108,
+          "name": "きのみのもよう",
+          "category": "カベ",
+          "colorHex": "#E9E3D4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/berry_pattern_520c727a.jpg",
+          "distance": 55.8
+        },
+        {
+          "id": 60062,
+          "name": "わたのゆか",
+          "category": "ゆか・どうろ",
+          "colorHex": "#E2DDD5",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/cotton_floor_97f946b0.jpg",
+          "distance": 61.3
+        },
+        {
+          "id": 60111,
+          "name": "シャボンのもよう",
+          "category": "カベ",
+          "colorHex": "#DCDFD4",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/bubble_pattern_6279621c.jpg",
+          "distance": 64
+        },
+        {
+          "id": 60117,
+          "name": "はっぱもよう",
+          "category": "カベ",
+          "colorHex": "#E2EDC6",
+          "imageUrl": "/manus-storage/catalog/pokoa-blocks/leaf_pattern_c718328a.jpg",
+          "distance": 66.4
+        }
+      ]
+    }
+  ]
+}

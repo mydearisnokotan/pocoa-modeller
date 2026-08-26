@@ -5,6 +5,8 @@ import { blockMaterials, blocks, materials, miningLocations } from "../drizzle/s
 const palette = [
   { name: "月光ホワイト", hex: "#F5F0D5" },
   { name: "ストーングレー", hex: "#8E98A8" },
+  { name: "アンダーグレー", hex: "#31363B" },
+  { name: "エメラルドグリーン", hex: "#0B8000" },
   { name: "ネオンライム", hex: "#C8FF00" },
   { name: "アーケードシアン", hex: "#29F4FF" },
   { name: "パルスマゼンタ", hex: "#FF3DBA" },
@@ -41,7 +43,21 @@ export async function ensureCatalogSeeded() {
   const db = await getDb();
   if (!db) return;
   const existing = await db.select({ id: blocks.id }).from(blocks).limit(1);
-  if (existing.length > 0) return;
+  if (existing.length > 0) {
+    const existingBlocks = await db.select({ id: blocks.id, name: blocks.name }).from(blocks);
+    const existingNames = new Set(existingBlocks.map(block => block.name));
+    const supplemental = palette.filter(color => color.name === "アンダーグレー" || color.name === "エメラルドグリーン").map(color => ({
+      name: `${color.name} 基準石`, colorHex: color.hex, colorName: color.name, category: "石", description: `多色設計図の色近似に使える${color.name}の基準ブロック。`,
+    })).filter(block => !existingNames.has(block.name));
+    if (supplemental.length) {
+      await db.insert(blocks).values(supplemental);
+      const [storedBlocks, storedMaterials] = await Promise.all([db.select().from(blocks), db.select().from(materials)]);
+      const stoneMaterial = storedMaterials.find(material => material.name === "石材");
+      const createdBlocks = storedBlocks.filter(block => supplemental.some(item => item.name === block.name));
+      if (stoneMaterial && createdBlocks.length) await db.insert(blockMaterials).values(createdBlocks.map(block => ({ blockId: block.id, materialId: stoneMaterial.id, quantity: 1 })));
+    }
+    return;
+  }
 
   await db.insert(miningLocations).values(starterLocations);
   const storedLocations = await db.select().from(miningLocations);

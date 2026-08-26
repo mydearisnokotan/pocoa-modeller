@@ -52,11 +52,12 @@ export default function Catalog() {
           {catalog.isLoading && Array.from({ length: 15 }, (_, index) => <Skeleton key={index} className="h-44 rounded-sm bg-white/5" />)}
           {catalog.data?.map(block => <article key={block.id} className="block-card group relative overflow-hidden p-3">
             <div className="mb-4 grid aspect-square place-items-center overflow-hidden border border-white/10 bg-[#0b122b]" style={{ backgroundImage: `linear-gradient(45deg, ${block.colorHex}20 25%, transparent 25%), linear-gradient(-45deg, ${block.colorHex}20 25%, transparent 25%), linear-gradient(45deg, transparent 75%, ${block.colorHex}20 75%), linear-gradient(-45deg, transparent 75%, ${block.colorHex}20 75%)`, backgroundSize: "16px 16px", backgroundPosition: "0 0, 0 8px, 8px -8px, -8px 0" }}>
-              <span className="h-16 w-16 border-4 border-[#090d20] shadow-[4px_4px_0_#ffffff30]" style={{ background: block.colorHex }} />
+              {block.imageUrl ? <img src={block.imageUrl} alt={`${block.name}のブロック画像`} className="h-full w-full object-cover" /> : <span className="h-16 w-16 border-4 border-[#090d20] shadow-[4px_4px_0_#ffffff30]" style={{ background: block.colorHex }} />}
             </div>
             <Badge variant="outline" className="border-white/15 bg-black/10 text-[10px] text-slate-300">{block.category}</Badge>
             <h2 className="mt-2 text-sm font-bold leading-5 text-slate-100">{block.name}</h2>
             <p className="mt-1 text-xs text-slate-400">{block.colorName}</p>
+            {block.description?.includes("提供カタログキー:") && <p className="mt-2 line-clamp-2 text-[10px] leading-4 text-cyan-100/75">{block.description.replace(/^提供カタログキー:.*\n?/, "")}</p>}
           </article>)}
           {!catalog.isLoading && catalog.data?.length === 0 && <div className="col-span-full border border-white/10 bg-[#111a36] px-6 py-14 text-center"><Inbox className="mx-auto h-8 w-8 text-cyan-200" /><h2 className="mt-4 font-bold text-slate-100">条件に合うブロックがありません</h2><p className="mt-2 text-sm text-slate-400">検索語や色、カテゴリを変更してみてください。</p><Button onClick={() => { setQuery(""); setCategory("すべて"); setColor("すべて"); }} variant="outline" className="mt-5 border-cyan-300/40 text-cyan-100 hover:bg-cyan-300/10 hover:text-cyan-50">すべてのブロックを見る</Button></div>}
         </section>}

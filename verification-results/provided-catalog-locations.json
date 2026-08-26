@@ -1,0 +1,123 @@
+{
+  "createdLocations": [
+    "まっさらな街",
+    "パサパサこうやの街",
+    "水面のキラキラ",
+    "キラキラうきしまの街",
+    "ドンヨリうみべの街",
+    "ゴツゴツやまの街",
+    "ポケモンセンター",
+    "ゆめしま"
+  ],
+  "updatedMaterialLocations": [
+    {
+      "material": "ざいもく",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "かいがら",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "いとくず",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "いし",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "ヒカリいし",
+      "location": "ゴツゴツやまの街"
+    },
+    {
+      "material": "きんののべぼう",
+      "location": "まっさらな街"
+    },
+    {
+      "material": "わた",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "レンガ",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "コンクリート",
+      "location": "キラキラうきしまの街"
+    },
+    {
+      "material": "どうののべぼう",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "てつののべぼう",
+      "location": "ゴツゴツやまの街"
+    },
+    {
+      "material": "クリスタルのカケラ",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "ポケメタル",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "はっぱ",
+      "location": "キラキラうきしまの街"
+    },
+    {
+      "material": "せっかいせき",
+      "location": "ゴツゴツやまの街"
+    },
+    {
+      "material": "てつ",
+      "location": "キラキラうきしまの街"
+    },
+    {
+      "material": "シーグラスのかけら",
+      "location": "キラキラうきしまの街"
+    },
+    {
+      "material": "ガラス",
+      "location": "ゴツゴツやまの街"
+    },
+    {
+      "material": "ぐにゃぐにゃねんど",
+      "location": "水面のキラキラ"
+    },
+    {
+      "material": "もえないゴミ",
+      "location": "キラキラうきしまの街"
+    },
+    {
+      "material": "どう",
+      "location": "キラキラうきしまの街"
+    },
+    {
+      "material": "しろいいわ",
+      "location": "ドンヨリうみべの街"
+    },
+    {
+      "material": "ザラザラいわ",
+      "location": "まっさらな街"
+    },
+    {
+      "material": "うすちゃいわ",
+      "location": "まっさらな街"
+    },
+    {
+      "material": "あかいわ",
+      "location": "まっさらな街"
+    },
+    {
+      "material": "きいろいいわ",
+      "location": "まっさらな街"
+    },
+    {
+      "material": "すないわ",
+      "location": "パサパサこうやの街"
+    }
+  ],
+  "note": "地点は提供JSONのブロック入手・解放情報から抽出した関連地点であり、素材の直接採取場所とは限りません。"
+}
