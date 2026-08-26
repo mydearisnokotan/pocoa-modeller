@@ -41,5 +41,8 @@ export async function createProjectCandidates(projectId: number, analysis: Build
       sortOrder: index,
     };
   });
-  if (rows.length) await db.insert(projectSelections).values(rows);
+  if (rows.length) {
+    await db.delete(projectSelections).where(eq(projectSelections.projectId, projectId));
+    await db.insert(projectSelections).values(rows);
+  }
 }

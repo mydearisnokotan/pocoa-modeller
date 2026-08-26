@@ -1,6 +1,6 @@
 import { and, desc, eq, inArray, like, or } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, blockMaterials, blocks, materials, miningLocations, projects, projectSelections, users } from "../drizzle/schema";
+import { InsertUser, blockMaterials, blocks, materials, miningLocations, projectReferences, projects, projectSelections, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -227,8 +227,38 @@ export async function getUserProject(projectId: number, userId: number) {
   if (!db) return undefined;
   const result = await db.select().from(projects).where(and(eq(projects.id, projectId), eq(projects.userId, userId))).limit(1);
   if (!result[0]) return undefined;
-  const selections = await db.select().from(projectSelections).where(eq(projectSelections.projectId, projectId)).orderBy(projectSelections.sortOrder);
-  return { ...result[0], selections };
+  const [selections, references] = await Promise.all([
+    db.select().from(projectSelections).where(eq(projectSelections.projectId, projectId)).orderBy(projectSelections.sortOrder),
+    db.select().from(projectReferences).where(eq(projectReferences.projectId, projectId)).orderBy(projectReferences.sortOrder),
+  ]);
+  return { ...result[0], selections, references };
+}
+
+export type ProjectReferenceInput = {
+  userId: number;
+  projectId: number;
+  view: "front" | "back" | "left" | "right" | "top" | "other";
+  imageKey: string;
+  imageUrl: string;
+  originalName: string;
+};
+
+export async function addProjectReference(input: ProjectReferenceInput) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const owner = await db.select({ id: projects.id }).from(projects).where(and(eq(projects.id, input.projectId), eq(projects.userId, input.userId))).limit(1);
+  if (!owner[0]) throw new Error("プロジェクトが見つかりません。");
+  const existing = await db.select({ id: projectReferences.id }).from(projectReferences).where(eq(projectReferences.projectId, input.projectId));
+  const result = await db.insert(projectReferences).values({ ...input, sortOrder: existing.length });
+  return Number(result[0].insertId);
+}
+
+export async function removeProjectReference(userId: number, projectId: number, referenceId: number) {
+  const db = await getDb();
+  if (!db) throw new Error("Database is unavailable");
+  const owned = await db.select({ id: projectReferences.id }).from(projectReferences).innerJoin(projects, eq(projectReferences.projectId, projects.id)).where(and(eq(projectReferences.id, referenceId), eq(projectReferences.projectId, projectId), eq(projects.userId, userId))).limit(1);
+  if (!owned[0]) throw new Error("参照画像が見つかりません。");
+  await db.delete(projectReferences).where(eq(projectReferences.id, referenceId));
 }
 
 export async function createProject(userId: number, title: string, buildingHeight: number) {
@@ -251,6 +281,12 @@ export async function saveProjectAnalysis(input: {
     sourceImageKey: input.sourceImageKey,
     sourceImageUrl: input.sourceImageUrl,
     analysis: input.analysis,
+    blueprint2d: null,
+    blueprint3d: null,
+    blueprint2dImageKey: null,
+    blueprint2dImageUrl: null,
+    blueprint3dImageKey: null,
+    blueprint3dImageUrl: null,
     status: "analyzed",
   }).where(and(eq(projects.id, input.projectId), eq(projects.userId, input.userId)));
 }

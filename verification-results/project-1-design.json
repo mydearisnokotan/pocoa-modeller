@@ -1,0 +1,3758 @@
+{
+  "blueprint2d": {
+    "blockSummary": [
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "count": 640
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "count": 160
+      }
+    ],
+    "cells": [
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 0
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 0
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 0
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 9,
+        "y": 0
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 10,
+        "y": 0
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 11,
+        "y": 0
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 0
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 5,
+        "y": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 1
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 9,
+        "y": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 10,
+        "y": 1
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 11,
+        "y": 1
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 13,
+        "y": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 5,
+        "y": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 2
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 9,
+        "y": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 10,
+        "y": 2
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 11,
+        "y": 2
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 13,
+        "y": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 3
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 7,
+        "y": 3
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 8,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 9,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 10,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 11,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 12,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 13,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 14,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 15,
+        "y": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 4
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 7,
+        "y": 4
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 8,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 9,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 10,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 11,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 12,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 13,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 14,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 15,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 16,
+        "y": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 1,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 2,
+        "y": 5
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 3,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 4,
+        "y": 5
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 5
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 7,
+        "y": 5
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 8,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 9,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 10,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 11,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 12,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 13,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 14,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 15,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 16,
+        "y": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 1,
+        "y": 6
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 2,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 3,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 4,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 8,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 10,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 13,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 14,
+        "y": 6
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 15,
+        "y": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 16,
+        "y": 6
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 0,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 1,
+        "y": 7
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 2,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 3,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 4,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 8,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 10,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 13,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 14,
+        "y": 7
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 15,
+        "y": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 16,
+        "y": 7
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 17,
+        "y": 7
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 0,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 1,
+        "y": 8
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 2,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 3,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 4,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 8,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 10,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 13,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 14,
+        "y": 8
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 15,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 16,
+        "y": 8
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 17,
+        "y": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 0,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 1,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 2,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 3,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 4,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 5,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 9
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 9,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 10,
+        "y": 9
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 11,
+        "y": 9
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 13,
+        "y": 9
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 14,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 15,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 16,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 17,
+        "y": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 0,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 1,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 2,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 3,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 4,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 5,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 10
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 9,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 10,
+        "y": 10
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 11,
+        "y": 10
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 13,
+        "y": 10
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 14,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 15,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 16,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 17,
+        "y": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 1,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 2,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 3,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 4,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 5,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 11
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 9,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 10,
+        "y": 11
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 11,
+        "y": 11
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 13,
+        "y": 11
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 14,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 15,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 16,
+        "y": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 1,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 2,
+        "y": 12
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 3,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 4,
+        "y": 12
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 12
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 7,
+        "y": 12
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 8,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 9,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 10,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 11,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 12,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 13,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 14,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 15,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 16,
+        "y": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 1,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 2,
+        "y": 13
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 3,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 4,
+        "y": 13
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 13
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 7,
+        "y": 13
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 8,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 9,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 10,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 11,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 12,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 13,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 14,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 15,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 16,
+        "y": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 2,
+        "y": 14
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 3,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 4,
+        "y": 14
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 14
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 7,
+        "y": 14
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 8,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 9,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 10,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 11,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 12,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 13,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 14,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 15,
+        "y": 14
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 3,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 4,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 8,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 10,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 13,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 14,
+        "y": 15
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 4,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 8,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 10,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 13,
+        "y": 16
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 17
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 17
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 17
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 8,
+        "y": 17
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 17
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 10,
+        "y": 17
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 17
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 17
+      }
+    ],
+    "gridSize": 18,
+    "legend": [
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "layer": "L3",
+        "partId": "head_01",
+        "partName": "頭部・角"
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "layer": "L2",
+        "partId": "neck_01",
+        "partName": "首部"
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "layer": "L1",
+        "partId": "torso_01",
+        "partName": "胴体"
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "layer": "L2",
+        "partId": "legs_01",
+        "partName": "脚部（四肢）"
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "layer": "L3",
+        "partId": "wheel_01",
+        "partName": "千手（輪）"
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "layer": "L2",
+        "partId": "tail_01",
+        "partName": "尾"
+      }
+    ],
+    "materialSummary": [
+      {
+        "count": 800,
+        "description": "道路や舗装に向く加工前の岩片。",
+        "locationDescription": "石材・岩片を採掘できる深い坑道。",
+        "locationImageUrl": null,
+        "locationName": "月影鉱山",
+        "materialId": 2,
+        "name": "岩片"
+      }
+    ],
+    "totalBlocks": 800
+  },
+  "blueprint3d": {
+    "gridSize": 18,
+    "voxels": [
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 8,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 8,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 9,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 9,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 10,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 10,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 8,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 8,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 9,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 9,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 9,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 9,
+        "z": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 10,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 6,
+        "y": 10,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 8,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 8,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 9,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 9,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 9,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 9,
+        "z": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 10,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 7,
+        "y": 10,
+        "z": 10
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 5,
+        "y": 9,
+        "z": 11
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 4,
+        "y": 9,
+        "z": 12
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 4,
+        "y": 9,
+        "z": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "head_01",
+        "x": 3,
+        "y": 9,
+        "z": 13
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 8,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 8,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 8,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 9,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 9,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 7,
+        "y": 10,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 8,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 8,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 9,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 9,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 9,
+        "z": 9
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "neck_01",
+        "x": 8,
+        "y": 10,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 5,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 8,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 8,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 8,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 9,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 9,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 10,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 6,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 7,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 7,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 7,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 8,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 9,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 10,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 11,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 11,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 7,
+        "y": 11,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 7,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 7,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 7,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 8,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 8,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 8,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 9,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 9,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 10,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 10,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 11,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 11,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 8,
+        "y": 11,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 7,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 7,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 7,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 8,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 8,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 8,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 8,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 8,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 9,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 9,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 9,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 9,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 10,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 10,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 10,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 11,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 11,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 9,
+        "y": 11,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 7,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 7,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 7,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 8,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 8,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 8,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 8,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 8,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 9,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 9,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 9,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 9,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 10,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 10,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 10,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 11,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 11,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 10,
+        "y": 11,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 7,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 7,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 7,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 8,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 8,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 8,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 9,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 9,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 9,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 9,
+        "z": 8
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 10,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 11,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 11,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 11,
+        "y": 11,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 8,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 8,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 8,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 9,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 9,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 10,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 12,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "torso_01",
+        "x": 13,
+        "y": 9,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 7,
+        "z": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 7,
+        "z": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 7,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 7,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 8,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 10,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 11,
+        "z": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 11,
+        "z": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 11,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 7,
+        "y": 11,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 7,
+        "z": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 7,
+        "z": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 7,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 7,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 8,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 12,
+        "y": 7,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 10,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 11,
+        "z": 1
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 11,
+        "z": 2
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 11,
+        "z": 3
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 11,
+        "y": 11,
+        "z": 4
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "legs_01",
+        "x": 12,
+        "y": 11,
+        "z": 3
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 13,
+        "y": 5,
+        "z": 6
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 13,
+        "y": 5,
+        "z": 7
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 5,
+        "z": 8
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 5,
+        "z": 8
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 5,
+        "z": 7
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 5,
+        "z": 6
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 5,
+        "y": 5,
+        "z": 5
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 6,
+        "y": 5,
+        "z": 4
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 12,
+        "y": 5,
+        "z": 4
+      },
+      {
+        "blockId": 6,
+        "blockName": "サンシャインイエロー 玉石舗装",
+        "colorHex": "#FFE45C",
+        "partId": "wheel_01",
+        "x": 13,
+        "y": 5,
+        "z": 5
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 13,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 14,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 14,
+        "y": 10,
+        "z": 6
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 15,
+        "y": 10,
+        "z": 7
+      },
+      {
+        "blockId": 1,
+        "blockName": "月光ホワイト 玉石舗装",
+        "colorHex": "#F5F0D5",
+        "partId": "tail_01",
+        "x": 16,
+        "y": 10,
+        "z": 7
+      }
+    ]
+  }
+}

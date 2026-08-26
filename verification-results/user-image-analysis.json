@@ -1,0 +1,158 @@
+{
+  "summary": "白い四足歩行の体躯に、腹部を貫通するように配置された金色の輪状装飾が特徴的な神話的造形です。有機的な曲線と鋭利な突起が混在しており、ブロック建築においてはバランスと接続強度の検討が重要となります。",
+  "suitability": {
+    "overallScore": 72,
+    "backgroundScore": 100,
+    "resolutionScore": 45,
+    "partVisibilityScore": 60,
+    "depthScore": 75,
+    "verdict": "caution"
+  },
+  "assessments": [
+    {
+      "criterion": "建築適性",
+      "score": 65,
+      "status": "caution",
+      "note": "細い脚部と大きな胴体、浮遊感のある輪の構造は、ブロックでの自立や強度確保に工夫を要します。"
+    },
+    {
+      "criterion": "背景",
+      "score": 100,
+      "status": "good",
+      "note": "背景が純白で透過処理や切り出しが容易であり、シルエットの把握に最適です。"
+    },
+    {
+      "criterion": "解像度",
+      "score": 40,
+      "status": "poor",
+      "note": "低解像度のため、顔の細部や関節の接続部が不明瞭です。拡大時のディテール補完が必要です。"
+    },
+    {
+      "criterion": "部位欠損",
+      "score": 55,
+      "status": "caution",
+      "note": "右半身（奥側）の脚部や輪の裏側が隠れており、対称性を前提とした推測設計が必要です。"
+    },
+    {
+      "criterion": "立体構造",
+      "score": 75,
+      "status": "good",
+      "note": "斜め前からのアングルにより、胴体の厚みや輪の立体的な交差順序が把握しやすくなっています。"
+    },
+    {
+      "criterion": "色判定",
+      "score": 90,
+      "status": "good",
+      "note": "白、グレー、金、緑の境界がはっきりしており、ブロックの選定は容易です。"
+    }
+  ],
+  "parts": [
+    {
+      "id": "head_01",
+      "name": "頭部・角",
+      "role": "顔面および後方へ伸びる突起",
+      "layerId": "L3",
+      "dominantColor": "#FFFFFF",
+      "coveragePercent": 15,
+      "visibility": "full",
+      "notes": "顔の前面は黒く、目は赤色。後方の角は滑らかな曲線を描く。"
+    },
+    {
+      "id": "neck_01",
+      "name": "首部",
+      "role": "頭部と胴体の接続",
+      "layerId": "L2",
+      "dominantColor": "#FFFFFF",
+      "coveragePercent": 10,
+      "visibility": "full",
+      "notes": "前面にグレーの垂直ラインあり。頭部を支えるため強固な芯材が必要。"
+    },
+    {
+      "id": "torso_01",
+      "name": "胴体",
+      "role": "構造の基部",
+      "layerId": "L1",
+      "dominantColor": "#FFFFFF",
+      "coveragePercent": 25,
+      "visibility": "partial",
+      "notes": "腹部はグレー。金色の輪が貫通するスリット状の構造を持つ。"
+    },
+    {
+      "id": "legs_01",
+      "name": "脚部（四肢）",
+      "role": "支持構造",
+      "layerId": "L2",
+      "dominantColor": "#FFFFFF",
+      "coveragePercent": 20,
+      "visibility": "partial",
+      "notes": "先端が金色の蹄状。非常に細いため、ブロックの自重に耐える設計が必要。"
+    },
+    {
+      "id": "wheel_01",
+      "name": "千手（輪）",
+      "role": "外装装飾",
+      "layerId": "L3",
+      "dominantColor": "#D4AF37",
+      "coveragePercent": 20,
+      "visibility": "partial",
+      "notes": "十字に交差する金色のアーチ。4箇所に緑の宝玉が埋め込まれている。"
+    },
+    {
+      "id": "tail_01",
+      "name": "尾",
+      "role": "後部装飾",
+      "layerId": "L2",
+      "dominantColor": "#FFFFFF",
+      "coveragePercent": 10,
+      "visibility": "full",
+      "notes": "胴体後部から上向きに伸びる。グレーの裏地が見える。"
+    }
+  ],
+  "layers": [
+    {
+      "id": "L1",
+      "name": "コアレイヤー",
+      "order": 1,
+      "purpose": "全体の重心と構造的安定性の確保"
+    },
+    {
+      "id": "L2",
+      "name": "ボディレイヤー",
+      "order": 2,
+      "purpose": "四肢と首、尾の接続とシルエット形成"
+    },
+    {
+      "id": "L3",
+      "name": "ディテールレイヤー",
+      "order": 3,
+      "purpose": "輪の装飾、顔の造作、宝玉の配置"
+    }
+  ],
+  "colorPalette": [
+    {
+      "name": "プライマリホワイト",
+      "hex": "#F5F5F5",
+      "prominence": 60
+    },
+    {
+      "name": "アンダーグレー",
+      "hex": "#4A4A4A",
+      "prominence": 20
+    },
+    {
+      "name": "ゴールドフレーム",
+      "hex": "#D4AF37",
+      "prominence": 15
+    },
+    {
+      "name": "エメラルドジュエル",
+      "hex": "#008000",
+      "prominence": 5
+    }
+  ],
+  "cautions": [
+    "右側の脚部および輪の右半分は画像から隠れているため、左側を反転させた対称設計を行う必要があります。",
+    "金色の輪は胴体と接していますが、物理的な保持力を高めるために透明ブロック等での補助を推奨します。",
+    "首と頭部の接続角が鋭いため、内部にテクニックパーツ等の軸を通すことを検討してください。"
+  ]
+}

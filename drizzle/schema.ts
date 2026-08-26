@@ -79,6 +79,17 @@ export const projects = mysqlTable("projects", {
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 }, table => [index("projects_user_updated_idx").on(table.userId, table.updatedAt)]);
 
+export const projectReferences = mysqlTable("projectReferences", {
+  id: int("id").autoincrement().primaryKey(),
+  projectId: int("projectId").notNull().references(() => projects.id),
+  view: mysqlEnum("view", ["front", "back", "left", "right", "top", "other"]).default("other").notNull(),
+  imageKey: text("imageKey").notNull(),
+  imageUrl: text("imageUrl").notNull(),
+  originalName: varchar("originalName", { length: 200 }).notNull(),
+  sortOrder: int("sortOrder").notNull().default(0),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+}, table => [index("projectReferences_project_idx").on(table.projectId, table.sortOrder)]);
+
 export const projectSelections = mysqlTable("projectSelections", {
   id: int("id").autoincrement().primaryKey(),
   projectId: int("projectId").notNull().references(() => projects.id),
@@ -99,3 +110,4 @@ export type Block = typeof blocks.$inferSelect;
 export type Material = typeof materials.$inferSelect;
 export type MiningLocation = typeof miningLocations.$inferSelect;
 export type Project = typeof projects.$inferSelect;
+export type ProjectReference = typeof projectReferences.$inferSelect;

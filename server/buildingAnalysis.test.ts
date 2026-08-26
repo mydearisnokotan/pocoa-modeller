@@ -10,6 +10,6 @@ describe("parseImageDataUrl", () => {
   });
 
   it("rejects unsupported image data URLs", () => {
-    expect(() => parseImageDataUrl("data:image/gif;base64,R0lGODlh")).toThrow("PNG、JPEG、またはWebP");
+    expect(() => parseImageDataUrl("data:image/gif;base64,R0lGODlh")).toThrow("PNGまたはJPEG");
   });
 });

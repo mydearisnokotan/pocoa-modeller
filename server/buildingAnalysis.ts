@@ -1,4 +1,5 @@
 import { invokeLLM } from "./_core/llm";
+import { extractSilhouette, type Silhouette } from "./silhouette";
 
 export type BuildingAnalysis = {
   summary: string;
@@ -38,7 +39,11 @@ export type BuildingAnalysis = {
     prominence: number;
   }>;
   cautions: string[];
+  silhouette?: Silhouette;
+  silhouettes?: Array<{ view: "front" | "back" | "left" | "right" | "top" | "other"; silhouette: Silhouette }>;
 };
+
+export type ReferenceImageInput = { dataUrl: string; view: "front" | "back" | "left" | "right" | "top" | "other" };
 
 const analysisSchema = {
   type: "object",
@@ -107,8 +112,8 @@ const analysisSchema = {
 };
 
 export function parseImageDataUrl(dataUrl: string) {
-  const matched = dataUrl.match(/^data:(image\/(?:png|jpeg|webp));base64,([A-Za-z0-9+/=\r\n]+)$/);
-  if (!matched) throw new Error("PNG、JPEG、またはWebP画像を選択してください。");
+  const matched = dataUrl.match(/^data:(image\/(?:png|jpeg));base64,([A-Za-z0-9+/=\r\n]+)$/);
+  if (!matched) throw new Error("輪郭解析にはPNGまたはJPEG画像を選択してください。");
   const bytes = Buffer.from(matched[2].replace(/[\r\n]/g, ""), "base64");
   if (bytes.length === 0 || bytes.length > 5 * 1024 * 1024) {
     throw new Error("画像サイズは5MB以下にしてください。");
@@ -116,7 +121,9 @@ export function parseImageDataUrl(dataUrl: string) {
   return { mimeType: matched[1], bytes };
 }
 
-export async function analyzeBuildingImage(dataUrl: string): Promise<BuildingAnalysis> {
+export async function analyzeBuildingImages(references: ReferenceImageInput[]): Promise<BuildingAnalysis> {
+  if (!references.length || references.length > 6) throw new Error("参照画像は1〜6枚で指定してください。");
+  const parsed = references.map(reference => ({ ...reference, image: parseImageDataUrl(reference.dataUrl) }));
   const response = await invokeLLM({
     model: "gemini-3-flash-preview",
     maxTokens: 4500,
@@ -128,8 +135,8 @@ export async function analyzeBuildingImage(dataUrl: string): Promise<BuildingAna
       {
         role: "user",
         content: [
-          { type: "text", text: "この参照画像を建築資料として解析してください。建築適性・背景・解像度・部位欠損・立体構造・色判定を0〜100で評価し、見えている部位と建築レイヤーを列挙してください。部位はブロック選定に使える粒度に分けます。色はおおまかなHEXコードにしてください。" },
-          { type: "image_url", image_url: { url: dataUrl, detail: "high" } },
+          { type: "text", text: `同一の建築対象を写した${references.length}枚の参照画像を、視点を補い合う一組の資料として解析してください。順番と視点は ${references.map((reference, index) => `${index + 1}: ${reference.view}`).join(" / ")} です。建築適性・背景・解像度・部位欠損・立体構造・色判定を0〜100で評価し、すべての視点を統合した部位と建築レイヤーを列挙してください。部位はブロック選定に使える粒度に分けます。色はおおまかなHEXコードにしてください。異なる視点で確認できた形状は、統合後の部位説明へ具体的に反映してください。` },
+          ...references.map(reference => ({ type: "image_url" as const, image_url: { url: reference.dataUrl, detail: "high" as const } })),
         ],
       },
     ],
@@ -137,5 +144,17 @@ export async function analyzeBuildingImage(dataUrl: string): Promise<BuildingAna
   });
   const content = response.choices[0]?.message.content;
   if (typeof content !== "string") throw new Error("AI解析結果を読み取れませんでした。");
-  return JSON.parse(content) as BuildingAnalysis;
+  const silhouettes = parsed.flatMap(reference => {
+    try {
+      return [{ view: reference.view, silhouette: extractSilhouette(reference.image.bytes, reference.image.mimeType) }];
+    } catch {
+      return [];
+    }
+  });
+  const preferred = silhouettes.find(item => item.view === "front")?.silhouette ?? silhouettes[0]?.silhouette;
+  return { ...JSON.parse(content) as BuildingAnalysis, silhouette: preferred, silhouettes };
+}
+
+export async function analyzeBuildingImage(dataUrl: string): Promise<BuildingAnalysis> {
+  return analyzeBuildingImages([{ dataUrl, view: "front" }]);
 }
