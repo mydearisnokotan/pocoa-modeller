@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#0284c7" stroke="#0369a1" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#ffffff"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#ffffff"/>
+    <!-- Pale blue store stripes -->
+    <line x1="26" y1="39" x2="26" y2="76" stroke="#7dd3fc" stroke-width="4"/>
+    <line x1="38" y1="45" x2="38" y2="82" stroke="#7dd3fc" stroke-width="4"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#f8fafc"/>
+    <line x1="62" y1="45" x2="62" y2="82" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="74" y1="39" x2="74" y2="76" stroke="#38bdf8" stroke-width="4"/>
+  </svg>

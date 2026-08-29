@@ -1,0 +1,14 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#475569" stroke="#334155" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#cbd5e1"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#94a3b8"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#64748b"/>
+    <!-- Sparkling stardust crystals & cyan ore vein -->
+    <path d="M 15,55 Q 32,68 50,60" stroke="#38bdf8" stroke-width="3" fill="none"/>
+    <path d="M 50,60 Q 68,52 85,62" stroke="#0284c7" stroke-width="3" fill="none"/>
+    <!-- Stars -->
+    <path d="M 30,42 L 32,46 L 36,48 L 32,50 L 30,54 L 28,50 L 24,48 L 28,46 Z" fill="#ffffff"/>
+    <path d="M 68,64 L 70,68 L 74,70 L 70,72 L 68,76 L 66,72 L 62,70 L 66,68 Z" fill="#fef08a"/>
+    <circle cx="42" cy="74" r="2" fill="#ffffff"/>
+    <circle cx="60" cy="46" r="2" fill="#38bdf8"/>
+  </svg>

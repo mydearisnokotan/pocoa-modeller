@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#0284c7" stroke="#0369a1" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#e0f2fe"/>
+    <!-- Top 4 sub-tiles -->
+    <line x1="50" y1="15" x2="50" y2="51" stroke="#0284c7" stroke-width="1.5"/>
+    <line x1="15" y1="33" x2="85" y2="33" stroke="#0284c7" stroke-width="1.5"/>
+    <!-- Left face 4 sub-tiles -->
+    <polygon points="15,33 50,51 50,88 15,70" fill="#bae6fd"/>
+    <line x1="32" y1="42" x2="32" y2="79" stroke="#0284c7" stroke-width="2"/>
+    <line x1="15" y1="51" x2="50" y2="70" stroke="#0284c7" stroke-width="2"/>
+    <!-- Right face 4 sub-tiles -->
+    <polygon points="50,51 85,33 85,70 50,88" fill="#7dd3fc"/>
+    <line x1="68" y1="42" x2="68" y2="79" stroke="#0369a1" stroke-width="2"/>
+    <line x1="50" y1="70" x2="85" y2="51" stroke="#0369a1" stroke-width="2"/>
+  </svg>

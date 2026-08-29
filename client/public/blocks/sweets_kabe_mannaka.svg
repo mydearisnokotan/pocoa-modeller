@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#be185d" stroke="#831843" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#fbcfe8"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#f472b6"/>
+    <!-- Vertical strawberry candy stripes -->
+    <line x1="24" y1="38" x2="24" y2="75" stroke="#ffffff" stroke-width="4"/>
+    <line x1="38" y1="45" x2="38" y2="82" stroke="#ffffff" stroke-width="4"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#db2777"/>
+    <line x1="62" y1="45" x2="62" y2="82" stroke="#ffffff" stroke-width="4"/>
+    <line x1="76" y1="38" x2="76" y2="75" stroke="#ffffff" stroke-width="4"/>
+  </svg>

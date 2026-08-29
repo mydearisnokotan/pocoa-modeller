@@ -1,6 +1,24 @@
+import { GoogleGenAI } from "@google/genai";
 import { ENV } from "./env";
 
 export type Role = "system" | "user" | "assistant" | "tool" | "function";
+
+let geminiClient: GoogleGenAI | null = null;
+function getGeminiClient(): GoogleGenAI | null {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) return null;
+  if (!geminiClient) {
+    geminiClient = new GoogleGenAI({
+      apiKey,
+      httpOptions: {
+        headers: {
+          'User-Agent': 'aistudio-build',
+        },
+      },
+    });
+  }
+  return geminiClient;
+}
 
 export type TextContent = {
   type: "text";
@@ -218,8 +236,8 @@ const resolveApiUrl = () =>
     : "https://forge.manus.im/v1/chat/completions";
 
 const assertApiKey = () => {
-  if (!ENV.forgeApiKey) {
-    throw new Error("OPENAI_API_KEY is not configured");
+  if (!ENV.forgeApiKey && !process.env.GEMINI_API_KEY) {
+    throw new Error("No LLM API key configured (set GEMINI_API_KEY or BUILT_IN_FORGE_API_KEY)");
   }
 };
 
@@ -340,6 +358,96 @@ const fetchWithBackoff = async (
 };
 
 export async function invokeLLM(params: InvokeParams): Promise<InvokeResult> {
+  const gemini = getGeminiClient();
+  if (gemini && !ENV.forgeApiKey) {
+    try {
+      const { messages, responseFormat, response_format, outputSchema, output_schema } = params;
+      const normalizedFormat = normalizeResponseFormat({ responseFormat, response_format, outputSchema, output_schema });
+
+      const contents: Array<{ role: string; parts: Array<Record<string, unknown>> }> = [];
+      let systemInstruction: string | undefined;
+
+      for (const msg of messages) {
+        if (msg.role === "system") {
+          const sysText = typeof msg.content === "string" ? msg.content : Array.isArray(msg.content) ? msg.content.map(c => typeof c === "string" ? c : "text" in c ? c.text : "").join("\n") : "";
+          systemInstruction = (systemInstruction ? systemInstruction + "\n\n" : "") + sysText;
+          continue;
+        }
+
+        const role = msg.role === "assistant" ? "model" : "user";
+        const parts: Array<Record<string, unknown>> = [];
+
+        if (typeof msg.content === "string") {
+          parts.push({ text: msg.content });
+        } else if (Array.isArray(msg.content)) {
+          for (const item of msg.content) {
+            if (typeof item === "string") {
+              parts.push({ text: item });
+            } else if (item.type === "text") {
+              parts.push({ text: item.text });
+            } else if (item.type === "image_url") {
+              const url = item.image_url.url;
+              const matched = url.match(/^data:([^;]+);base64,(.+)$/);
+              if (matched) {
+                parts.push({
+                  inlineData: {
+                    mimeType: matched[1],
+                    data: matched[2],
+                  },
+                });
+              }
+            }
+          }
+        }
+
+        if (parts.length > 0) {
+          contents.push({ role, parts });
+        }
+      }
+
+      const config: Record<string, unknown> = {};
+      if (systemInstruction) {
+        config.systemInstruction = systemInstruction;
+      }
+      if (normalizedFormat?.type === "json_schema" && normalizedFormat.json_schema?.schema) {
+        config.responseMimeType = "application/json";
+        config.responseSchema = normalizedFormat.json_schema.schema;
+      } else if (normalizedFormat?.type === "json_object") {
+        config.responseMimeType = "application/json";
+      }
+
+      const selectedModel = params.model && !params.model.includes("gemini-2.5") && !params.model.includes("gemini-1.5") && !params.model.includes("gemini-2.0")
+        ? params.model
+        : "gemini-3.7-flash";
+
+      const response = await gemini.models.generateContent({
+        model: selectedModel,
+        contents,
+        config,
+      });
+
+      const responseText = response.text || "";
+      return {
+        id: crypto.randomUUID(),
+        created: Math.floor(Date.now() / 1000),
+        model: selectedModel,
+        choices: [
+          {
+            index: 0,
+            message: {
+              role: "assistant",
+              content: responseText,
+            },
+            finish_reason: "stop",
+          },
+        ],
+      };
+    } catch (geminiError) {
+      console.warn("[LLM] Gemini call failed, trying fallback:", geminiError);
+      if (!ENV.forgeApiKey) throw geminiError;
+    }
+  }
+
   assertApiKey();
 
   const {

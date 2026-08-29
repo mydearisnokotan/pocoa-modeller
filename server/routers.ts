@@ -50,7 +50,8 @@ export const appRouter = router({
         query: z.string().trim().max(80).optional(),
         category: z.string().trim().max(60).optional(),
         color: z.string().trim().max(80).optional(),
-        limit: z.number().int().min(1).max(200).optional(),
+        blockType: z.enum(["all", "image_only", "virtual_only"]).optional(),
+        limit: z.number().int().min(1).max(1000).optional(),
       }).optional())
       .query(async ({ input }) => {
         await ensureCatalogSeeded();

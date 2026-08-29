@@ -1,0 +1,9 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#ca8a04" stroke="#a16207" stroke-width="2" stroke-linejoin="round"/>
+    <!-- Cyan algae cap on sand -->
+    <polygon points="50,15 85,33 50,51 15,33" fill="#00ffff"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#fde68a"/>
+    <path d="M 15,33 L 15,44 Q 25,48 35,42 Q 45,52 50,48 L 50,51 Z" fill="#00ffff"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#fcd34d"/>
+    <path d="M 50,51 L 50,48 Q 65,42 75,48 Q 80,44 85,40 L 85,33 Z" fill="#06b6d4"/>
+  </svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#9f1239" stroke="#881337" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#fb7185"/>
+    <!-- Textured moss top -->
+    <path d="M 25,28 Q 35,22 45,30 Q 55,38 65,26 Q 75,34 82,32" stroke="#fda4af" stroke-width="2" fill="none" opacity="0.8"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#f43f5e"/>
+    <!-- Spore spots -->
+    <circle cx="28" cy="45" r="3" fill="#ffe4e6" opacity="0.7"/>
+    <circle cx="40" cy="56" r="4" fill="#fda4af" opacity="0.6"/>
+    <circle cx="22" cy="62" r="3" fill="#be123c" opacity="0.8"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#e11d48"/>
+    <circle cx="62" cy="48" r="3.5" fill="#fda4af" opacity="0.6"/>
+    <circle cx="75" cy="58" r="3" fill="#ffe4e6" opacity="0.7"/>
+    <circle cx="60" cy="68" r="4" fill="#9f1239" opacity="0.8"/>
+  </svg>

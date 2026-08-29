@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#0f766e" stroke="#115e59" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#ccfbf1"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#ffffff"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#f0fdfa"/>
+    <!-- Mint green wavy stripes -->
+    <path d="M 15,42 Q 24,36 32,46 Q 41,36 50,46" stroke="#2dd4bf" stroke-width="4" fill="none"/>
+    <path d="M 15,55 Q 24,49 32,59 Q 41,49 50,59" stroke="#2dd4bf" stroke-width="4" fill="none"/>
+    <path d="M 15,68 Q 24,62 32,72 Q 41,62 50,72" stroke="#2dd4bf" stroke-width="4" fill="none"/>
+    <path d="M 50,46 Q 59,36 68,46 Q 76,36 85,42" stroke="#14b8a6" stroke-width="4" fill="none"/>
+    <path d="M 50,59 Q 59,49 68,59 Q 76,49 85,55" stroke="#14b8a6" stroke-width="4" fill="none"/>
+    <path d="M 50,72 Q 59,62 68,72 Q 76,62 85,68" stroke="#14b8a6" stroke-width="4" fill="none"/>
+  </svg>

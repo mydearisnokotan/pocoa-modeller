@@ -1,0 +1,8 @@
+{
+  "name": "ぽこあModeller",
+  "description": "3D/2D voxel and blueprint modelling workspace for block construction from reference images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

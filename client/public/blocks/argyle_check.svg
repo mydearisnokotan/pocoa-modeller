@@ -1,0 +1,27 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="argRed" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ef4444"/>
+        <stop offset="100%" stop-color="#b91c1c"/>
+      </linearGradient>
+      <linearGradient id="argDark" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#991b1b"/>
+        <stop offset="100%" stop-color="#7f1d1d"/>
+      </linearGradient>
+    </defs>
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#7f1d1d" stroke="#450a0a" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="url(#argRed)"/>
+    <polygon points="50,23 68,33 50,43 32,33" fill="#fef08a" stroke="#fef9c3" stroke-width="1"/>
+    <line x1="15" y1="33" x2="85" y2="33" stroke="#fef9c3" stroke-width="1.5" opacity="0.8"/>
+    <line x1="50" y1="15" x2="50" y2="51" stroke="#fef9c3" stroke-width="1.5" opacity="0.8"/>
+    
+    <polygon points="15,33 50,51 50,88 15,70" fill="url(#argRed)"/>
+    <polygon points="32,42 42,56 32,70 22,56" fill="#fef08a" stroke="#fef9c3" stroke-width="1"/>
+    <line x1="15" y1="52" x2="50" y2="70" stroke="#fef9c3" stroke-width="1.5" opacity="0.7"/>
+    <line x1="15" y1="70" x2="50" y2="52" stroke="#fef9c3" stroke-width="1.5" opacity="0.7"/>
+
+    <polygon points="50,51 85,33 85,70 50,88" fill="url(#argDark)"/>
+    <polygon points="68,42 78,56 68,70 58,56" fill="#fef08a" stroke="#fef9c3" stroke-width="1"/>
+    <line x1="50" y1="70" x2="85" y2="52" stroke="#fef9c3" stroke-width="1.5" opacity="0.7"/>
+    <line x1="50" y1="52" x2="85" y2="70" stroke="#fef9c3" stroke-width="1.5" opacity="0.7"/>
+  </svg>

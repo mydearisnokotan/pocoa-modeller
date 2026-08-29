@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#78350f" stroke="#451a03" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#d97706"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#b45309"/>
+    <!-- Antique top molding & arabesque -->
+    <polygon points="15,33 50,51 50,59 15,41" fill="#78350f"/>
+    <path d="M 22,65 Q 32,58 42,65" stroke="#fef3c7" stroke-width="2" fill="none"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#92400e"/>
+    <polygon points="50,51 85,33 85,41 50,59" fill="#78350f"/>
+    <path d="M 58,65 Q 68,58 78,65" stroke="#fef3c7" stroke-width="2" fill="none"/>
+  </svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#334155" stroke="#1e293b" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#cbd5e1"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#94a3b8"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#64748b"/>
+    <!-- Steel plate panel & rivets -->
+    <polygon points="20,42 45,55 45,80 20,67" fill="#64748b" stroke="#475569" stroke-width="1.5"/>
+    <circle cx="23" cy="46" r="1.5" fill="#f1f5f9"/>
+    <circle cx="42" cy="56" r="1.5" fill="#f1f5f9"/>
+    <circle cx="23" cy="64" r="1.5" fill="#f1f5f9"/>
+    <circle cx="42" cy="76" r="1.5" fill="#f1f5f9"/>
+    <polygon points="55,55 80,42 80,67 55,80" fill="#475569" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="58" cy="56" r="1.5" fill="#cbd5e1"/>
+    <circle cx="77" cy="46" r="1.5" fill="#cbd5e1"/>
+    <circle cx="58" cy="76" r="1.5" fill="#cbd5e1"/>
+    <circle cx="77" cy="64" r="1.5" fill="#cbd5e1"/>
+  </svg>

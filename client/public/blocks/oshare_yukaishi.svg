@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#334155" stroke="#0f172a" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#cbd5e1"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#94a3b8"/>
+    <!-- Interlocking stone pavement -->
+    <path d="M 15,48 L 32,40 L 32,60 L 15,68" fill="#64748b" stroke="#334155" stroke-width="1.5"/>
+    <path d="M 32,60 L 50,52 L 50,72 L 32,80" fill="#cbd5e1" stroke="#334155" stroke-width="1.5"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#64748b"/>
+    <path d="M 50,52 L 68,44 L 68,64 L 50,72" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+    <path d="M 68,64 L 85,56 L 85,76 L 68,84" fill="#cbd5e1" stroke="#334155" stroke-width="1.5"/>
+  </svg>

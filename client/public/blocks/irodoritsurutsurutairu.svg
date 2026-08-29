@@ -1,0 +1,23 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#475569" stroke="#334155" stroke-width="2" stroke-linejoin="round"/>
+    <!-- 4 Pastel Quadrants -->
+    <polygon points="50,15 67,24 50,33 32,24" fill="#fbcfe8"/>
+    <polygon points="67,24 85,33 67,42 50,33" fill="#bae6fd"/>
+    <polygon points="32,24 50,33 32,42 15,33" fill="#ddd6fe"/>
+    <polygon points="50,33 67,42 50,51 32,42" fill="#fed7aa"/>
+    <!-- Left Face with tile grid -->
+    <polygon points="15,33 32,42 32,60 15,51" fill="#f472b6"/>
+    <polygon points="32,42 50,51 50,70 32,60" fill="#a78bfa"/>
+    <polygon points="15,51 32,60 32,79 15,70" fill="#60a5fa"/>
+    <polygon points="32,60 50,70 50,88 32,79" fill="#38bdf8"/>
+    <!-- Right Face with tile grid -->
+    <polygon points="50,51 68,42 68,60 50,70" fill="#818cf8"/>
+    <polygon points="68,42 85,33 85,51 68,60" fill="#38bdf8"/>
+    <polygon points="50,70 68,60 68,79 50,88" fill="#c084fc"/>
+    <polygon points="68,60 85,51 85,70 68,79" fill="#60a5fa"/>
+    <!-- Bevel Lines -->
+    <line x1="32" y1="42" x2="32" y2="79" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="15" y1="51" x2="50" y2="70" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="68" y1="42" x2="68" y2="79" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="50" y1="70" x2="85" y2="51" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+  </svg>

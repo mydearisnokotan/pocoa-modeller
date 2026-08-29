@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#7e22ce" stroke="#581c87" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#d8b4fe"/>
+    <!-- Dittos on top face -->
+    <circle cx="50" cy="33" r="6" fill="#c084fc"/>
+    <circle cx="48" cy="32" r="0.8" fill="#000"/>
+    <circle cx="52" cy="32" r="0.8" fill="#000"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#a855f7"/>
+    <!-- Dittos on left face -->
+    <path d="M 24,55 Q 26,48 34,49 Q 42,50 40,58 Q 38,65 30,64 Q 22,63 24,55 Z" fill="#c084fc"/>
+    <circle cx="29" cy="54" r="1" fill="#000"/>
+    <circle cx="35" cy="55" r="1" fill="#000"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#9333ea"/>
+    <!-- Dittos on right face -->
+    <path d="M 58,55 Q 60,48 68,49 Q 76,50 74,58 Q 72,65 64,64 Q 56,63 58,55 Z" fill="#c084fc"/>
+    <circle cx="63" cy="54" r="1" fill="#000"/>
+    <circle cx="69" cy="55" r="1" fill="#000"/>
+  </svg>

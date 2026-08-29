@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#1e1b4b" stroke="#0f172a" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="#312e81"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#3730a3"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#1e1b4b"/>
+    <!-- Marine Anchors (Orange & Cyan) -->
+    <!-- Left anchor (Orange) -->
+    <path d="M 32,46 L 32,66 M 24,58 Q 32,68 40,58" stroke="#fb923c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="32" cy="45" r="2.5" fill="#fb923c"/>
+    <!-- Right anchor (Cyan) -->
+    <path d="M 68,46 L 68,66 M 60,58 Q 68,68 76,58" stroke="#38bdf8" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="68" cy="45" r="2.5" fill="#38bdf8"/>
+  </svg>

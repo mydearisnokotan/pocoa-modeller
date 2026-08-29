@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="scTop" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#67e8f9"/>
+        <stop offset="100%" stop-color="#38bdf8"/>
+      </linearGradient>
+    </defs>
+    <polygon points="50,12 88,32 88,72 50,92 12,72 12,32" fill="#0f172a" stroke="#334155" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="50,15 85,33 50,51 15,33" fill="url(#scTop)"/>
+    <polygon points="15,33 50,51 50,88 15,70" fill="#0284c7"/>
+    <polygon points="50,51 85,33 85,70 50,88" fill="#0369a1"/>
+    <!-- Fish scale patterns -->
+    <path d="M 20,45 A 8,8 0 0,1 35,45 A 8,8 0 0,1 50,45" fill="#4ade80" stroke="#15803d" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 15,58 A 9,9 0 0,1 30,58 A 9,9 0 0,1 45,58" fill="#fb923c" stroke="#c2410c" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 22,70 A 9,9 0 0,1 38,70 A 9,9 0 0,1 50,70" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 50,45 A 8,8 0 0,0 65,40 A 8,8 0 0,0 80,38" fill="#fb923c" stroke="#c2410c" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 50,58 A 9,9 0 0,0 65,54 A 9,9 0 0,0 80,50" fill="#4ade80" stroke="#15803d" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 50,70 A 9,9 0 0,0 66,66 A 9,9 0 0,0 82,62" fill="#38bdf8" stroke="#0369a1" stroke-width="1.5" opacity="0.85"/>
+  </svg>
